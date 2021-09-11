@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
 	
 	public static void main(String[] args){
-		//create arraylist of user-defined class objects
 		List<Fruit> list = new ArrayList<Fruit>();
 		System.out.println("Student List (orderd by name)");
 		list.add(new Fruit(1, "rambutan", 50));
